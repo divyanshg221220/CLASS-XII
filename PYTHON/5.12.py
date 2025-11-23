@@ -6,6 +6,6 @@ def count_display():
         if i[0]=="A":
             print(i,end="")
             c+=1
-    print("\nCount :",c)
+    print("\nCount:",c)
     f.close()
 count_display()

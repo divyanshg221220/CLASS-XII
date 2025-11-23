@@ -3,9 +3,9 @@ import csv
 def add():
     f=open("furdata.csv","a",newline="")
     w=csv.writer(f)
-    fid=int(input("Enter furniture id : "))
-    fname=input("Enter furniture name : ")
-    fprice=float(input("Enter furniture price : "))
+    fid=int(input("Enter furniture id: "))
+    fname=input("Enter furniture name: ")
+    fprice=float(input("Enter furniture price: "))
     w.writerow([fid,fname,fprice])
     f.close()
 def search():
