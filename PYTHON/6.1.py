@@ -1,4 +1,4 @@
-# 6.1
+#6.1
 def prime(n,divisor=2):
     if n<=1:
         return False
