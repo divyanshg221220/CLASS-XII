@@ -6,6 +6,6 @@ def find_in_list(lst,v):
             break
     else:
         print(-1)
-lst=eval(input("Enter a list : "))
-v=eval(input("Enter a value : "))
+lst=eval(input("Enter a list: "))
+v=eval(input("Enter a value: "))
 find_in_list(lst,v)

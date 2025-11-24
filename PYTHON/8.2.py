@@ -8,5 +8,5 @@ def unique(lst):
         print(list)
     else:
         print("Empty list")
-lst=eval(input("Enter a list : "))
+lst=eval(input("Enter a list: "))
 unique(lst)
