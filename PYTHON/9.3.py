@@ -4,5 +4,5 @@ def POP(Arr):
         return Arr.pop()
     else:
         return "Underflow"
-list=eval(input("Enter a list: "))
-print(POP(list))
+stack=eval(input("Enter a list: "))
+print(POP(stack))
