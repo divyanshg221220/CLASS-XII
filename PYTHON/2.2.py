@@ -3,7 +3,7 @@ l=[]
 print("PRESS CTRL+C TO EXIT")
 try:
     while True:
-        l.append(input("enter "))
+        l.append(input("Enter: "))
 except KeyboardInterrupt:
     print("EXITED BY USER")
 print()
@@ -11,7 +11,7 @@ for i in l:
     print(i,end="")
 print()
 print("1. Number of words")
-print("2. Number of character")
+print("2. Number of characters (including white-space and punctuation)")
 print("3. Percentage of character that are alpha numeric")
 print("4. EXIT")
 print()

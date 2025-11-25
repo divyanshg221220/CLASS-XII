@@ -5,7 +5,7 @@ while True:
     print("2. tonnetokg()")
     print("3. kgtopound()")
     print("4. poundtokg()")
-    print("5. help()")
+    print("5. Help()")
     print("6. EXIT")
     print()
     choice=int(input("USER'S CHOICE: "))

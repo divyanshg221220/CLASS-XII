@@ -1,14 +1,21 @@
 #9.5
 queue=eval(input("Enter a list: "))
-q=int(input("Choose an operation to perform:\n1. push\n2. pop\nEnter your choice (1-2): "))
-if q==1:
-    n=int(input("Enter a number: "))
-    queue.append(n)
-elif q==2:
-    if queue!=[]:
-        queue.pop(0)
-    else:
-        print("Underflow")
-else:
-    print("Invalid input")
-print(queue)
+while True:
+    print()
+    print("1. enqueue")
+    print("2. dequeue")
+    print("3. EXIT")
+    print()
+    choice=int(input("USER'S CHOICE: "))
+    if choice==1:
+        n=int(input("Enter a number: "))
+        queue.append(n)
+    elif choice==2:
+        if queue!=[]:
+            queue.pop(0)
+        else:
+            print("Underflow")
+    elif choice==3:
+        print("EXITED BY USER")
+        break
+    print(queue)

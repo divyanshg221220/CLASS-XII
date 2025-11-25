@@ -7,8 +7,8 @@ def equal(char1,char2):
     else:
         return False
 while True:
-    print("1. cube(n=2)")
-    print("2. equal(char1,char2)")
+    print("1. a function that takes a number as argument and calculates cube for it. The function does not return a value. If there is no value passed to the function in function call, the function should calculates cube of 2.")
+    print("2. a function that takes two char arguments and returns True if both are equal otherwise False.")
     print("3. EXIT")
     print()
     choice=int(input("USER'S CHOICE: "))

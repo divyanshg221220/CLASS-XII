@@ -5,7 +5,7 @@ while True:
     print("2. kmtomile()")
     print("3. feettoinches()")
     print("4. inchestofeet()")
-    print("5. help()")
+    print("5. Help()")
     print("6. EXIT")
     print()
     choice=int(input("USER'S CHOICE: "))
