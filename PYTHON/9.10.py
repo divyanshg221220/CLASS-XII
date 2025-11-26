@@ -16,6 +16,7 @@ while True:
         PUSH(Books)
     elif choice==2:
         if Stack!=[]:
+            Books=input("Enter a book: ")
             POP(Books)
         else:
             print("Underflow")
