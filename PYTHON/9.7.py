@@ -1,5 +1,5 @@
 #9.7
-list=eval(input("Enter a list: "))
+list=[]
 while True:
     print()
     print("1. enqueue rear")

@@ -1,5 +1,5 @@
 #9.5
-queue=eval(input("Enter a list: "))
+queue=[]
 while True:
     print()
     print("1. enqueue")

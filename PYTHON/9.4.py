@@ -1,5 +1,5 @@
 #9.4
-stack=eval(input("Enter a list: "))
+stack=[]
 while True:
     print()
     print("1. push")
