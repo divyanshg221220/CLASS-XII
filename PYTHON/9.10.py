@@ -17,7 +17,10 @@ while True:
     elif choice==2:
         if Stack!=[]:
             Books=input("Enter a book: ")
-            POP(Books)
+            if Books in Stack:
+                POP(Books)
+            else:
+                print("Books not found")
         else:
             print("Underflow")
     elif choice==3:

@@ -17,7 +17,10 @@ while True:
     elif choice==2:
         if Queue!=[]:
             City=input("Enter a city: ")
-            Delete(City)
+            if City in Queue:
+                Delete(City)
+            else:
+                print("City not found")
         else:
             print("Underflow")
     elif choice==3:
