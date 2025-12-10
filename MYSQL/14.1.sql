@@ -1,0 +1,1 @@
+insert into Pending select * from Accounts where amt_outstanding > 10000;

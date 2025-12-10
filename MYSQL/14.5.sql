@@ -1,0 +1,1 @@
+delete Orders , Payment from Orders inner join OrdNo where Payment.Pment = "COMPLETE";

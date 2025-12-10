@@ -1,0 +1,1 @@
+update Empl set commision = 500 where year = 1982;

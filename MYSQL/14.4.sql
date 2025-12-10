@@ -1,0 +1,1 @@
+update EMPL , Dept set Dept.department = "BOSTON" where EMPL.employee_number = 7500;

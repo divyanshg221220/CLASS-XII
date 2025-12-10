@@ -1,0 +1,1 @@
+update employee set salary = salary + 0.1 * salary;
