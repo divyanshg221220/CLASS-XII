@@ -1,0 +1,13 @@
+#2.2
+print("Learning to move the file object")
+fileobject=open("testfile.txt","r+")
+str=fileobject.read()
+print(str)
+print("Initially, the position of the file object is: ",fileobject.tell())
+fileobject.seek(0)
+print("Now the file object is at the beginning of the file: ",fileobject.tell())
+fileobject.seek(10)
+print("We are moving to 10th byte position from the beginning of file")
+print("The position of the file object is at",fileobject.tell())
+str=fileobject.read()
+print(str)
