@@ -4,4 +4,4 @@ def length_check(n,m):
         return True
     else:
         return False
-print(length_check(input("Enter a string: "),input("Enter a string: ")))
+print(length_check(input("Enter a string:"),input("Enter a string:")))

@@ -10,13 +10,13 @@ while True:
     print("2. Remove(Book)")
     print("3. EXIT")
     print()
-    choice=int(input("USER'S CHOICE: "))
+    choice=int(input("USER'S CHOICE:"))
     if choice==1:
-        Book=input("Enter a book: ")
+        Book=input("Enter a book:")
         Addnew(Book)
     elif choice==2:
         if Stack!=[]:
-            Book=input("Enter a book: ")
+            Book=input("Enter a book:")
             if Book in Stack:
                 Remove(Book)
             else:

@@ -10,13 +10,13 @@ while True:
     print("2. DeleteClient(Client)")
     print("3. EXIT")
     print()
-    choice=int(input("USER'S CHOICE: "))
+    choice=int(input("USER'S CHOICE:"))
     if choice==1:
-        Client=input("Enter a client: ")
+        Client=input("Enter a client:")
         AddClient(Client)
     elif choice==2:
         if queue!=[]:
-            Client=input("Enter a client: ")
+            Client=input("Enter a client:")
             if Client in queue:
                 DeleteClient(Client)
             else:

@@ -1,5 +1,5 @@
 #1.7
-N=int(input("Enter an integer: "))
+N=int(input("Enter an integer:"))
 s=0
 if N>0:
     for i in range(N,(2*N)+1):

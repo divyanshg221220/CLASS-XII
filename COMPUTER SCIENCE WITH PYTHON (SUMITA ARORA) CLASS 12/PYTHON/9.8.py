@@ -6,7 +6,7 @@ while True:
     print("2. POP()")
     print("3. EXIT")
     print()
-    choice=int(input("USER'S CHOICE: "))
+    choice=int(input("USER'S CHOICE:"))
     if choice==1:
         pin=int(input("Pin code of a city, "))
         name=input("Name of city.")

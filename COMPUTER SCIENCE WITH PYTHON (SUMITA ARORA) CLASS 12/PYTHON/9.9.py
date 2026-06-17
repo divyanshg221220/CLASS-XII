@@ -9,10 +9,10 @@ while True:
     print("3. Change Priority")
     print("4. EXIT")
     print()
-    choice=int(input("USER'S CHOICE: "))
+    choice=int(input("USER'S CHOICE:"))
     if choice==1:
         element=input("Enter Element : ")
-        priority=input("Priority (Highest/ Normal/ Lowest(H/N/L) : ").upper()
+        priority=input("Priority (Highest/ Normal/ Lowest(H/N/L): ").upper()
         if priority=="H":
             HighestPr.append(element)
         elif priority=="N":
@@ -54,6 +54,6 @@ while True:
     elif choice==4:
         print("EXITED BY USER")
         break
-    print("HighestPr: ",HighestPr)
-    print("NormalPr: ",NormalPr)
-    print("LowestPr: ",LowestPr)
+    print("HighestPr:",HighestPr)
+    print("NormalPr:",NormalPr)
+    print("LowestPr:",LowestPr)

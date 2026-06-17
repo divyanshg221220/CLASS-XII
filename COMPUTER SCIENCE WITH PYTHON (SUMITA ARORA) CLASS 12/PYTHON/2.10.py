@@ -6,5 +6,5 @@ def addDict(dict1,dict2):
     for i in dict2:
         d[i]=dict2[i]
     return d
-print(addDict(dict1=eval(input("Enter a dictionary: ")),
-dict2=eval(input("Enter a dictionary: "))))
+print(addDict(dict1=eval(input("Enter a dictionary:")),
+dict2=eval(input("Enter a dictionary:"))))

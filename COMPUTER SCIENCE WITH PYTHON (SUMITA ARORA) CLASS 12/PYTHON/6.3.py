@@ -7,5 +7,5 @@ def hailstone(n):
         hailstone(n/2)
     else:
         hailstone(3*n+1)
-n=int(input("Enter a number: "))
+n=int(input("Enter a number:"))
 hailstone(n)

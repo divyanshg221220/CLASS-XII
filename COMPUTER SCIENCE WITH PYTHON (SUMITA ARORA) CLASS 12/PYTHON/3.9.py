@@ -5,6 +5,6 @@ def series(f,l):
     for i in range(f,l+1,s):
         t+=(i,)
     return t
-f=int(input("Enter first value: "))
-l=int(input("Enter last value: "))
+f=int(input("Enter first value:"))
+l=int(input("Enter last value:"))
 print(series(f,l))

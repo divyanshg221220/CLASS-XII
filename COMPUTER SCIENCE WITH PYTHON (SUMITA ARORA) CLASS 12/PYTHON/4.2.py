@@ -8,15 +8,15 @@ while True:
     print("5. Help()")
     print("6. EXIT")
     print()
-    choice=int(input("USER'S CHOICE: "))
+    choice=int(input("USER'S CHOICE:"))
     if choice==1:
-        print("km:",lengthconversion.miletokm(int(input("Enter value in mile: "))))
+        print("km:",lengthconversion.miletokm(int(input("Enter value in mile:"))))
     elif choice==2:
-        print("mile:",lengthconversion.kmtomile(int(input("Enter value in kilometer: "))))
+        print("mile:",lengthconversion.kmtomile(int(input("Enter value in kilometer:"))))
     elif choice==3:
-        print("inch:",lengthconversion.feettoinches(int(input("Enter value in feet: "))))
+        print("inch:",lengthconversion.feettoinches(int(input("Enter value in feet:"))))
     elif choice==4:
-        print("foot",lengthconversion.inchestofeet(int(input("Enter value in inch: "))))
+        print("foot",lengthconversion.inchestofeet(int(input("Enter value in inch:"))))
     elif choice==5:
         print(lengthconversion.help())
     elif choice==6:

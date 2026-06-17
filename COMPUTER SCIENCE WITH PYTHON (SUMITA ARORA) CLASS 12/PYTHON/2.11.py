@@ -1,5 +1,5 @@
 #2.11
-d=eval(input("Enter a dictionary: "))
+d=eval(input("Enter a dictionary:"))
 l=list(d.keys())
 n=len(l)
 for i in range(n):

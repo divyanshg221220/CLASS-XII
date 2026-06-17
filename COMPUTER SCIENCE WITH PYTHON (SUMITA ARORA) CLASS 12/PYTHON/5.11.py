@@ -5,7 +5,7 @@ f3=open("OTHERS.TXT","w")
 print("PRESS CTRL+C TO EXIT")
 try:
     while True:
-        str=input("Enter a character: ")
+        str=input("Enter a character:")
         if str.islower():
             f1.write(str)
         elif str.isupper():

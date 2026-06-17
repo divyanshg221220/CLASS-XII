@@ -1,14 +1,14 @@
 #5.22
 import csv
-fn=input("Enter file name: ")
+fn=input("Enter file name:")
 f=open(fn,"w",newline="")
 w=csv.writer(f)
 rdata=[]
-m,n=int(input("Enter number of rows: ")),int(input("Enter number of columns: "))
+m,n=int(input("Enter number of rows:")),int(input("Enter number of columns:"))
 for i in range(m):
     cdata=[]
     for j in range(n):
-        cdata.append(input("Enter data: "))
+        cdata.append(input("Enter data:"))
     rdata.append(cdata)
 w.writerows(rdata)
 f.close()

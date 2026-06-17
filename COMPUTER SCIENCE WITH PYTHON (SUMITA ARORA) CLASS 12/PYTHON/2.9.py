@@ -8,9 +8,9 @@ while True:
     print("4. Print out the (key-value) pairs sorted by the number of days in each month.")
     print("5. EXIT")
     print()
-    choice=int(input("USER'S CHOICE: "))
+    choice=int(input("USER'S CHOICE:"))
     if choice==1:
-        print("Number of days:",d[input("Name of month: ")])
+        print("Number of days:",d[input("Name of month:")])
     elif choice==2:
         print("Name of months in alphabetical order:")
         l=list(d.keys())
@@ -18,7 +18,7 @@ while True:
         for i in l:
             print(i)
     elif choice==3:
-        print("Name of months with 31 days: ")
+        print("Name of months with 31 days:")
         for i in d:
             if d[i]==31:
                 print(i)

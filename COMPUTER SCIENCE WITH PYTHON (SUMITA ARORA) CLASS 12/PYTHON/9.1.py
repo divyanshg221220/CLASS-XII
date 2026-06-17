@@ -6,9 +6,9 @@ while True:
     print("2. pop")
     print("3. EXIT")
     print()
-    choice=int(input("USER'S CHOICE: "))
+    choice=int(input("USER'S CHOICE:"))
     if choice==1:
-        n=int(input("Enter a number: "))
+        n=int(input("Enter a number:"))
         stack.append(n)
     elif choice==2:
         if stack!=[]:

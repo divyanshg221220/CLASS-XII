@@ -7,9 +7,9 @@ while True:
     print("3. dequeue rear")
     print("4. EXIT")
     print()
-    choice=int(input("USER'S CHOICE: "))
+    choice=int(input("USER'S CHOICE:"))
     if choice==1:
-        n=int(input("Enter a number: "))
+        n=int(input("Enter a number:"))
         list.append(n)
     elif choice==2:
         if list!=[]:

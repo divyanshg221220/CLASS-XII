@@ -6,9 +6,9 @@ while True:
     print("2. dequeue")
     print("3. EXIT")
     print()
-    choice=int(input("USER'S CHOICE: "))
+    choice=int(input("USER'S CHOICE:"))
     if choice==1:
-        n=int(input("Enter a number: "))
+        n=int(input("Enter a number:"))
         queue.append(n)
     elif choice==2:
         if queue!=[]:

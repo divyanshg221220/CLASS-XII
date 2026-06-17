@@ -5,7 +5,7 @@ def CreateFile():
     print("PRESS CTRL+C TO EXIT")
     try:
         while True:
-            pickle.dump([int(input("BookNo: ")),input("Book_Name: "),input("Author: "),int(input("Price: "))],f)
+            pickle.dump([int(input("BookNo:")),input("Book_Name:"),input("Author:"),int(input("Price:"))],f)
             print()
     except KeyboardInterrupt:
         f.close()
@@ -29,11 +29,11 @@ while True:
     print("2. CountRec(Author)")
     print("3. EXIT")
     print()
-    choice=int(input("USER'S CHOICE: "))
+    choice=int(input("USER'S CHOICE:"))
     if choice==1:
         CreateFile()
     elif choice==2:
-        CountRec(input("Author: "))
+        CountRec(input("Author:"))
     elif choice==3:
         print("EXITED BY USER")
         break

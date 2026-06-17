@@ -10,13 +10,13 @@ while True:
     print("2. Delete(City)")
     print("3. EXIT")
     print()
-    choice=int(input("USER'S CHOICE: "))
+    choice=int(input("USER'S CHOICE:"))
     if choice==1:
-        City=input("Enter a city: ")
+        City=input("Enter a city:")
         Insert(City)
     elif choice==2:
         if Queue!=[]:
-            City=input("Enter a city: ")
+            City=input("Enter a city:")
             if City in Queue:
                 Delete(City)
             else:

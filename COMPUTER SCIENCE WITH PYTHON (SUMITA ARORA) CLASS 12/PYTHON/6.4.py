@@ -17,5 +17,5 @@ def syn_sq_digits(q):
         print(n,"is a happy number")
     else:
         print(n,"is not a happy number")
-n=int(input("Enter a number: "))
+n=int(input("Enter a number:"))
 ishappy(n)

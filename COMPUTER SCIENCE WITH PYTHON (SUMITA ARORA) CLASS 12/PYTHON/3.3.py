@@ -11,15 +11,15 @@ while True:
     print("2. a function that takes two char arguments and returns True if both are equal otherwise False.")
     print("3. EXIT")
     print()
-    choice=int(input("USER'S CHOICE: "))
+    choice=int(input("USER'S CHOICE:"))
     if choice==1:
         try:
-            n=int(input("Enter a number: "))
+            n=int(input("Enter a number:"))
             cube(n)
         except:
             cube()
     elif choice==2:
-        print(equal(char1=input("Enter a character: "),char2=input("Enter a character: ")))
+        print(equal(char1=input("Enter a character:"),char2=input("Enter a character:")))
     elif choice==3:
         print("EXITED BY USER")
         break

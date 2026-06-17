@@ -11,11 +11,11 @@ while True:
     print("2. capwords()")
     print("3. EXIT")
     print()
-    choice=int(input("USER'S CHOICE: "))
+    choice=int(input("USER'S CHOICE:"))
     if choice!=3:
-        sentence=input("Enter a string: ")
+        sentence=input("Enter a string:")
     if choice==1:
-        letter=input("Enter a string: ")
+        letter=input("Enter a string:")
         print(remove_letter(sentence,letter))
     elif choice==2:
         o,n=capwords(sentence)

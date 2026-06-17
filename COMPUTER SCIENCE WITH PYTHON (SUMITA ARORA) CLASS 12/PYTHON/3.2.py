@@ -7,13 +7,13 @@ while True:
     print("3. height of box.")
     print("4. EXIT")
     print()
-    choice=int(input("USER'S CHOICE: "))
+    choice=int(input("USER'S CHOICE:"))
     if choice==1:
-        volume(length_of_box=float(input("Enter length of box: ")))
+        volume(length_of_box=float(input("Enter length of box:")))
     elif choice==2:
-        volume(width_of_box=float(input("Enter width of box: ")))
+        volume(width_of_box=float(input("Enter width of box:")))
     elif choice==3:
-        volume(height_of_box=float(input("Enter height of box: ")))
+        volume(height_of_box=float(input("Enter height of box:")))
     elif choice==4:
         print("EXITED BY USER")
         break

@@ -10,9 +10,9 @@ while True:
     print("2. DELETE(Arr)")
     print("3. EXIT")
     print()
-    choice=int(input("USER'S CHOICE: "))
+    choice=int(input("USER'S CHOICE:"))
     if choice==1:
-        data=input("Enter data: ")
+        data=input("Enter data:")
         INSERT(Arr,data)
     elif choice==2:
         if Arr!=[]:

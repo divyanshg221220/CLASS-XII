@@ -8,4 +8,4 @@ def random_number(n):
         else:
             s+=str(random.randint(0,9))
     return s
-print(random_number(int(input("Enter a number: "))))
+print(random_number(int(input("Enter a number:"))))
