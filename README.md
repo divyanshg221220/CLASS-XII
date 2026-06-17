@@ -7,3 +7,7 @@ COMPUTER SCIENCE WITH PYTHON - XII
 COMPUTER SCIENCE (NCERT)
 
 COMPUTER SCIENCE – CLASS XII
+
+`pip install mysql-connector-python`
+
+`pip install pymysql`
