@@ -1,6 +1,6 @@
 #5.18
 import pickle
-def destination():   
+def destination():  
     try:
         f=open("TRAIN.DAT","rb")
         while True:
